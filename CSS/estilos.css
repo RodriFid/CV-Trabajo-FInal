@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  width:1000px;
+  height:200px;
+  background: url(fondo.jpg);
+  }
+
+  .menu{
+text-align: center;
+  }
+
+#foto{
+border: solid 2px;
+color: blue;
+border-color: rgb(9, 9, 51);
+border-radius: 10%;
+}
+
+body {
+    background-color: #7a7cec;
+  }
+  
+  h1 {
+    font-family: 'Arial Narrow Bold';
+    font-size:xx-large;
+    text-shadow: 1px 1px 2px pink;
+    color: rgb(255, 255, 255);
+        text-align: right;
+    margin-right: 10%;
+    text-decoration: underline;
+  }
+
+  h2 {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    line-height: 150%;
+    text-align: right;
+    margin-right: 10%;
+    font-family: 'Arial', sans-serif;
+  }
+
+
+  h3 {
+    color: rgb(255, 255, 255);
+    margin-inline: center;
+    text-align: center;
+    background-color: rgb(25, 25, 85);
+    font-family: 'Arial', sans-serif;
+  }
+
+  h4 {
+    color: rgb(10, 10, 10);
+    margin-inline: left;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    margin-left: 3cm;
+    line-height: 1cm;
+  }
+
+  h5 {
+    color: rgb(10, 10, 10);
+    margin-inline: left;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    margin-left: 5cm;
+    line-height: 1cm;
+  }
+
+  .p{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+ #ancla-4{
+text-align: center;
+font-size: larger;
+font-style: italic;
+font-family: Impact, sans-serif;
+ }
+  
+ .footer {
+  background-color: #18126e;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: whitesmoke;
+  margin: 0 10px;
+}
+
+.cuadrado {
+  padding: 30px;
+  margin: 30px;
+  background-color: rgb(132, 157, 209);
+  background: linear-gradient(rgb(69, 69, 180), pink);
+  border: solid 5px #041558;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  margin-left: 3cm;
+  margin-right: 3cm;
+  line-height: 90%;
+  text-align: center
+  }
+
+  .cuadrado2 { 
+    border: solid 2px #041558;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-left: 6cm;
+    margin-right: 6cm;
+    line-height: 90%;
+    text-align: center
+    }
+
+#presentacion{
+  font-family: 'Arial Narrow Bold';
+  text-decoration-style: solid;
+  box-sizing: border-box;
+}

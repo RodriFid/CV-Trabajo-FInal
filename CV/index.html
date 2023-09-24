@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Programmer</title>
+    <link rel="stylesheet" href="C:\Users\Rodrigo\Desktop\Desarrollador WEB\CSS\estilos.css">
+</head>
+<link rel="icon" type="image/jpg" href="C:\Users\Rodrigo\Desktop\Desarrollador WEB\CV\favicon.png" />
+
+<body>
+
+<!-- La idea es que con la 1er pantalla se pueda apreciar de qué se trata la página: de un CV, por eso 
+aparecen los datos principales y una presentacion. 
+Mi idea original era que la foto (que es cuadrada) tenga un marco redondo, y que estuviera a la izquierda
+a la misma altura de los datos personales-->
+    <header>
+        <img src="C:\Users\Rodrigo\Desktop\Desarrollador WEB\CV\fondo.jpg"
+            alt="La imagen de fondo no ha podido ser cargada. Por favor intente nuevamente." height="400px"
+            width="1350px">
+    </header>
+
+    <section>
+        <h1>CURRICULUM VITAE</h1>
+        <h2>Facundo Montessi</h2>
+        <h2>Edad: 28 años</h2>
+        <h2>Domicilio: Valencia 2645</h2>
+        <h2>Ciudad: Mar del Plata</h2>
+        <h2>Celular: 223668632</h2>
+        <h2>E-mail: fmontessi@gmail.com</h2>
+    </section>
+
+    &nbsp;
+    <nav class="menu">
+        <!--Se crean links ancla para navegar dentro de la misma página y llegar más rápido a la información-->
+        <ul>
+            <a href="#ancla-1">FORMACION GENERAL</a>
+            <a href="#ancla-2">FORMACION ESPECIFICA</a>
+            <a href="#ancla-3">EXPERIENCIA LABORAL</a>
+            <a href="#ancla-4">CONTACTO</a>
+        </ul>
+    </nav>
+
+
+    <div class="cuadrado">
+        <img id="foto" src="C:\Users\Rodrigo\Desktop\Desarrollador WEB\CV\foto.jpg"
+            alt="La imagen de perfil no ha podido ser cargada. Por favor intente nuevamente." height="150px" ;
+            width="150px">
+
+        <p>Hola, mi nombre es Facundo Montessi. Soy Programador Junior.</p>
+        <p>Considero que mi formación y experiencia como Programador Web son una conjunción relevante para insertarme
+            profesionalmente en una Empresa dedicada al ámbito de la Programación.</p>
+        <p>Tengo habilidades de trabajo en equipo, comunicación eficiente, manejo del tiempo y resolución de conflictos.
+        </p>
+        <p>Este es mi Curriculum...</p>
+
+        <!--Este es un evento de javascript en el que se puede escuchar un audio que realicé para hacer una
+        presentacion de manera verbal. Otra opcion seria agregar un boton o embeber un video de Youtube-->
+        <br>
+        <audio id="presentacion" src="C:\Users\Rodrigo\Desktop\Desarrollador WEB\CV\Record (online-voice-recorder.com).mp3" controls=""></audio>
+        <br>
+        <div class="cuadrado2">
+            <p id="presentacion">(Aquí hay un audio en el que realizo una presentación personal de mi trabajo.)</p>
+        </div>
+    
+    </div>
+   
+
+    &nbsp;
+    <div class="ancla" id="ancla-1">
+        <h3>FORMACION GENERAL</h3>
+        <h4>
+            <div>
+                <ul>
+                    <li>Bachiller con orientación en Informática. Instituto de la Sagrada Familia. 2012.</li>
+                    <li>Inglés: escritura y oralidad avanzados. Examen Internacional TOEFL. 2017</li>
+                    <li>Italiano: escritura y oralidad intermedios. Examen Internacional Universidad de Siena. 2020</li>
+                </ul>
+            </div>
+    </div>
+    </h4>
+    </div>
+    &nbsp;
+
+    <div class="ancla" id="ancla-2"></div>
+    <h3>FORMACION ESPECIFICA</h3>
+    <h4>
+        <div>
+            <ul>
+                <li>Técnico en Desarrollo de Software. ISFT N°204. 2019</li>
+                <li>(Cursando) Licenciatura en Tecnología educativa. UTN Regional Mar del Plata. 2022</li>
+                <li>Curso Lenguaje Phyton. Ticmas. 2021</li>
+                <li>Curso Full-Stack. Ticmas. 2020</li>
+                <li>Curso Data Analytics. Intecmar. 2022</li>
+            </ul>
+        </div>
+    </h4>
+    </div>
+
+
+    &nbsp;
+
+
+
+    <div class="ancla" id="ancla-3"></div>
+    <h3>EXPERIENCIA LABORAL</h3>
+    <div>
+        <ul>
+
+            <h4>
+                <li>Programador web de las siguientes empresas:</li>
+                <!--Se agregran enlaces externos a otros sitios web como ejemplo de experiencia laboral-->
+                <h5>Open Sports. Empresa dedicada a la ventas de artículos deportivos (2020/2021) <a
+                        href="https://www.opensports.com.ar/?gclid=CjwKCAjwsKqoBhBPEiwALrrqiN5-10zrwz3DAVDcmj5J7Ag4nhaL3JFEgJJFCTkuS0RO_QE8BgOushoCdicQAvD_BwE">Acceder
+                        al sitio web.</a>
+                    <h5>
+                        <h5>Bazar Tiribelli. Empresa dedicada a la venta de electrodomésticos y artículos de bazar
+                            (2021/actual) Acceder al sitio web. <a
+                                href="https://tiribellihogar.com.ar/?gclid=CjwKCAjwsKqoBhBPEiwALrrqiNc6A704JZ0Ajl-DdyqMkfkAhKNk-0q5hndt4AHaBwzlGzc1zwjG1BoCgQkQAvD_BwE">Acceder
+                                al sitio web.</a>
+                            <h5>
+                                <h5>Maxnic. Empresa que comercializa frutas y verduras (2021/actual) Acceder al sitio
+                                    web.
+                                    <a href="https://www.maxnic.com.ar/">Acceder al sitio web.</a>
+                                </h5>
+        </ul>
+    </div></h4>
+    </div>
+    &nbsp;
+
+      <footer>
+        <div class="ancla" id="ancla-4">
+            <p>CONTACTO</p>
+
+
+        </div>
+        <footer class="footer">
+            <div class="footer-links">
+                <!-- Se hizo un footer con contacto de redes sociales. Son enlaces externos, por eso te toman
+                como ejemplos redes sociales de famosos-->
+                <a href="https://www.facebook.com/zuck/?locale=es_LA">FACEBOOK</a>
+                <a href="https://www.instagram.com/leomessi/?hl=es">INSTAGRAM</a>
+                <a href="https://es.linkedin.com/showcase/jeff-bezos-newslines">LINKEDIN</a>
+            </div>
+        </footer>
+
+</body>
+
+</html>
